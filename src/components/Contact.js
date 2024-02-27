@@ -1,17 +1,25 @@
-// components/Contact.js
 import React from 'react';
+import { Container, Typography, Link } from '@mui/material';
 
 const Contact = () => {
   return (
-    <div>
-        <h2>Contact Us</h2>
-        <h4>        
-            <p>Email: pmananthababu@gmail.com
-                <br></br>LinkedIn: www.linkedin.com/in/anantha-babu-7b7116216
-                <br></br>GitHub: https://github.com/AnanthaBabuP
-            </p>
-        </h4>
-    </div>
+    <Container>
+      <Typography variant="h2" gutterBottom>
+        Contact Us
+      </Typography>
+      <Typography variant="h5" gutterBottom>
+        Contact No: +91 7305938076
+      </Typography>
+      <Typography variant="h5" gutterBottom>
+        Email: <Link href="mailto:pmananthababu@gmail.com" target="_blank" rel="noopener">pmananthababu@gmail.com</Link>
+      </Typography>
+      <Typography variant="h5" gutterBottom>
+        LinkedIn: <Link href="https://www.linkedin.com/in/anantha-babu-7b7116216" target="_blank" rel="noopener">www.linkedin.com/in/anantha-babu-7b7116216</Link>
+      </Typography>
+      <Typography variant="h5" gutterBottom>
+        GitHub: <Link href="https://github.com/AnanthaBabuP" target="_blank" rel="noopener">https://github.com/AnanthaBabuP</Link>
+      </Typography>
+    </Container>
   );
 }
 

@@ -1,10 +1,13 @@
 // components/Footer.js
 import React from 'react';
+import { Typography } from '@mui/material';
 
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2024 My Portfolio</p>
+      <Typography variant="body1" align="center" color="inherit" gutterBottom>
+        &copy; {new Date().getFullYear()} Your Website
+      </Typography>
     </footer>
   );
 }

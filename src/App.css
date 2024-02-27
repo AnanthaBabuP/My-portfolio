@@ -3,27 +3,6 @@
   text-align: center;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 footer {
   background-color: #333;
   color: #fff;
@@ -31,4 +10,10 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+body {
+  background-image: url('../public/rm222batch5-kul-03.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image file */
+  background-size: cover; /* This ensures that the background image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
 }
