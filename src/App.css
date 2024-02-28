@@ -12,8 +12,8 @@ footer {
   width: 100%;
 }
 body {
-  background-image: url('../public/rm222batch5-kul-03.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image file */
-  background-size: cover; /* This ensures that the background image covers the entire viewport */
-  background-repeat: no-repeat; /* Prevents the background image from repeating */
-  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  background-image: url('../public/rm222batch5-kul-03.jpg');
+  background-size: 100% 100%; /* Set background size to cover the entire viewport */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

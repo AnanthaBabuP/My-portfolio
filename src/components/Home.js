@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate(); // Initialize the navigate function
 
   // Define the file URL
-  const resumeUrl = process.env.PUBLIC_URL + '/resume.pdf';
+  const resumeUrl = process.env.PUBLIC_URL + '/Resume.pdf';
 
   // Function to handle the download process
   const handleDownload = () => {
