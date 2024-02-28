@@ -26,17 +26,13 @@ const Experience = () => {
       </Typography>
       <Paper elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
         <Typography variant="h5" gutterBottom>
-          Software Trainne
+          Software Trainee
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Sathish System pvt Ltd., Tirunelveli
+          Sathi System pvt Ltd., Tirunelveli
         </Typography>
         <Typography variant="subtitle2" gutterBottom>
           6 Months
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-         <strong>Objective: </strong>
-         To learn and acquire skills in software development through hands-on training, mentorship, and exposure to real-world projects.
         </Typography>
         <Typography variant="body1" gutterBottom>
          <strong>Objective: </strong>
@@ -100,13 +96,13 @@ const Experience = () => {
         {/* Cargo Shipping Management System Project */}
       <Paper elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
         <Typography variant="h5" gutterBottom>
-          Software Developer, Water Links
+          Full Stack Developer, Water Links
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Sathish System pvt Ltd., Tirunelveli
+          Sathi System pvt Ltd., Tirunelveli
         </Typography>
         <Typography variant="subtitle2" gutterBottom>
-          6 Months
+          8 Months
         </Typography>
         <Typography variant="body1" gutterBottom>
           Waterlinks is a comprehensive web application designed to streamline water management processes for municipalities and water utilities.
@@ -131,10 +127,10 @@ const Experience = () => {
 
       <Paper elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
         <Typography variant="h5" gutterBottom>
-          Software Developer, SUN REXASS
+        Full Stack Developer, SUN REXASS
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Sathish System pvt Ltd., Tirunelveli
+          Sathi System pvt Ltd., Tirunelveli
         </Typography>
         <Typography variant="subtitle2" gutterBottom>
           12 Months

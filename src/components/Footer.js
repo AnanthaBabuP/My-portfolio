@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <Typography variant="body1" align="center" color="inherit" gutterBottom>
-        &copy; {new Date().getFullYear()} Your Website
+        &copy; {new Date().getFullYear()} My Portfolio
       </Typography>
     </footer>
   );
