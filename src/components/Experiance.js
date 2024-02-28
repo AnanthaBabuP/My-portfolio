@@ -39,6 +39,7 @@ const Experience = () => {
          To learn and acquire skills in software development through hands-on training, mentorship, and exposure to real-world projects.
         </Typography>
         {showMoreTrainee && (<>
+
             <Typography variant="h4" gutterBottom>
                 Core Java
             </Typography>
@@ -52,7 +53,6 @@ const Experience = () => {
                 <ListItem>
                 <ListItemText primary="Data Types and Variables: Understanding different data types (primitive and reference) and variable declaration, initialization, and usage." />
                 </ListItem>
-                {/* Other list items */}
             </List>
 
             <Typography variant="h4" gutterBottom>
@@ -68,7 +68,6 @@ const Experience = () => {
                 <ListItem>
                 <ListItemText primary="JDBC and Database Connectivity: Establishing connections to databases, executing SQL queries, handling transactions, and managing database resources." />
                 </ListItem>
-                {/* Other list items */}
             </List>
 
             <Typography variant="h4" gutterBottom>
@@ -93,7 +92,7 @@ const Experience = () => {
         </Button>
       </Paper>
 
-        {/* Cargo Shipping Management System Project */}
+      {/* Water Management System Project */}
       <Paper elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
         <Typography variant="h5" gutterBottom>
           Full Stack Developer, Water Links
@@ -121,10 +120,8 @@ const Experience = () => {
           {showMore ? 'Show Less' : 'Show More'}
         </Button>
       </Paper>
-
-
       
-
+      {/* Cargo Shipping Management System Project */}
       <Paper elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
         <Typography variant="h5" gutterBottom>
         Full Stack Developer, SUN REXASS
@@ -151,12 +148,11 @@ const Experience = () => {
         
         <Typography variant="body1" gutterBottom>
           <strong>Technologies Used:</strong>
-          <ul>
-            <li><strong>Backend:</strong> Spring Framework (including Spring Boot, Spring MVC, Spring Data), providing a robust and scalable architecture for handling business logic and data access.</li>
-            <li><strong>Frontend:</strong> JSP (JavaServer Pages) for dynamic web page generation, allowing for the presentation of data and user interactions.</li>
-            <li><strong>Database:</strong> PostgreSQL, a powerful open-source relational database management system, used for storing and managing cargo shipment data.</li>
-            <li><strong>Reporting:</strong> JasperReports, an open-source reporting library, utilized for generating and presenting shipment reports, invoices, and analytics.</li>
-          </ul>
+          <br />
+            <strong>Backend:</strong><br /> Spring Framework (including Spring Boot, Spring MVC, Spring Data), providing a robust and scalable architecture for handling business logic and data access. <br />
+            <strong>Frontend:</strong><br /> JSP (JavaServer Pages) for dynamic web page generation, allowing for the presentation of data and user interactions. <br />
+            <strong>Database:</strong><br /> PostgreSQL, a powerful open-source relational database management system, used for storing and managing cargo shipment data. <br />
+            <strong>Reporting:</strong><br /> JasperReports, an open-source reporting library, utilized for generating and presenting shipment reports, invoices, and analytics. <br />
         </Typography>
         <Typography variant="body1" gutterBottom>
           The Cargo Shipping Management System provides a seamless and efficient solution for managing the complexities of cargo shipping operations. Leveraging the Spring Framework, JSP, PostgreSQL, and JasperReports, it offers a scalable, customizable, and user-friendly platform for logistics companies to optimize their shipping processes and enhance customer satisfaction.

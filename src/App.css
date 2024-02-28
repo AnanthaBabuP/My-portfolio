@@ -13,7 +13,7 @@ footer {
 }
 body {
   background-image: url('../public/rm222batch5-kul-03.jpg');
-  background-size: 100% 100%; /* Set background size to cover the entire viewport */
+  background-size: 100% 95%; /* Set background size to cover the entire viewport */
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

@@ -12,7 +12,7 @@ const Home = () => {
   // Function to handle the download process
   const handleDownload = () => {
     // Trigger the download using the saveAs function
-    saveAs(resumeUrl, 'AnanthBabu_periyasamy.pdf'); // Pass the resume URL and the desired file name
+    saveAs(resumeUrl, 'AnanthaBabu_Resume.pdf'); // Pass the resume URL and the desired file name
   };
 
   // Function to handle navigation to the contact page
